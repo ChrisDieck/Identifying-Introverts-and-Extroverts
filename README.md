@@ -348,17 +348,45 @@ best on precision scores across the board.
 
 ## Most Useful Data Visualizations
 ### Correlational Heatmap
-<img src=https://github.com/ChrisDieck/Project-2/blob/main/p2_heatmap.png>
+<img src=https://github.com/ChrisDieck/Project-2/blob/main/best%20correlational%20heatmap.png>
 
-- This heatmap shows that there is a lot of multicollinearity among the questions
-(shown by the brighter yellow squares). One of them is question 44 and question
-5. Another is question 44 and question 6. Both have higher correlations, and 
-many others have moderate correlations among each other.
+#### Analysis of Heatmap
 
-- By looking at the bottom row, we can see that there may be some mild to
-moderate correlations between the target variable (IE) and the questions. It
-seems that questions 13-26 have the highest correlations to 'IE', along with
-questions 31-39, 47-49, 80, and 89-91.
+- In looking at this heatmap, positive correlations mean that as the person
+agrees more with the statement (higher rating) they also tend identify as
+extroverted (higher number compared to introverted). If they disagree
+(lower rating), they tend to be introverted (lower number).
+- Negative correlations mean that the more they agree with the statement they
+also tend to be introverted. If they disagree, they tend to be extroverted.
+Basically, it is an inverse relationship.
+
+##### Positive Correlations
+
+After trying to select the specific values that seemed to have the strongest
+correlations, we can see that Q91 ("I talk to a lot of different people at
+parties") has the strongest positive correlation to IE. The next strongest
+positive correlations are followed by Q90 ("I start conversations") and Q89
+("I don&#39;t mind being the center of attention"), respectively. With some
+general knowledge about introverts and extraverts, it makes sense that these
+questions have the strongest positive correlations towards our target because
+extroverts typically enjoy, or are much more comfortable with social activities
+with strangers compared to introverts.
+
+It is interesting to note that these questions also have strong positive
+correlations between each other, which shows that people who agree with one are
+likely to agree with the others if they are extroverted, or disagree if they
+are introverted.
+
+##### Negative Correlations
+
+The questions with the highest negative correlations to our target are Q83 
+("I keep in the background"), Q82 ("I don't talk a lot"), and Q81 ("I am quiet
+around strangers"), respectively. These questions make sense to have negative
+correlations because introverts are typically enjoy their time alone and may
+dislike social activities around new people, which is represented well by these
+questions. Similarly, these questions are also strongly positively correlated
+between each other, which mean they also have consistent answers.
+
 
 ### Bar Chart Showing the % of People That Can Keep a Coversation Going
 <img src=https://github.com/ChrisDieck/Project-2/blob/main/q13a_and_IE.png>
@@ -389,11 +417,8 @@ extroverted) answered fairly evenly across the board, as expected.
 ## Final Model
 
 Based on these reports, the logistic regression model had the highest accuracy 
-at roughly 75%, followed by the KNN model with PCA at 74%, then the KNN model
-without PCA and the decision tree model at 71%.
-
-Of these models, I would consider the logistic regression model to be the best
-simply because it has the highest accuracy. While having false positives and
+at roughly 75% and I would consider this model to be the best simply because it 
+has the highest accuracy. Furthermore, while having false positives and
 negatives are not very important for this particular situation, having less
 false negatives is slightly better because (in the case of deciding how to
 market to a particular individual) false negatives mean we are missing
