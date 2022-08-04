@@ -388,10 +388,10 @@ questions. Similarly, these questions are also strongly positively correlated
 between each other, which mean they also have consistent answers.
 
 
-### Bar Chart Showing the % of People That Can Keep a Coversation Going
+### Bar Chart for Q13
 <img src=https://github.com/ChrisDieck/Project-2/blob/main/q13a_and_IE.png>
 
-### Bar Chart Showing the % of People That Like to Start Conversations
+### Bar Chart for Q90
 <img src=https://github.com/ChrisDieck/Project-2/blob/main/Q90A_and_IE.png>
 
 Analysis of Bar Charts:
