@@ -312,16 +312,16 @@ to produce a model that could reach an accuracy above 75%.
 ## Results
 
 ### Decision Tree Classification Report and Confusion Matrix
-<img src=https://github.com/ChrisDieck/Project-2/blob/main/dec_tree_cr.png>
-<img src=https://github.com/ChrisDieck/Project-2/blob/main/dec_tree_cm.png>
+<img src=https://github.com/ChrisDieck/Project-2/blob/main/images/dec_tree_cr.png>
+<img src=https://github.com/ChrisDieck/Project-2/blob/main/images/dec_tree_cm.png>
 
 - As shown, the decision tree model performed okay with an accuracy of 
 71.2% on the training set and 71.8% on the testing set. A redeeming quality is
 that it has a fairly high recall score of 92% for identifying introverts.
 
 ### KNN Classification Report and Confusion Matrix
-<img src=https://github.com/ChrisDieck/Project-2/blob/main/knn_cr.png>
-<img src=https://github.com/ChrisDieck/Project-2/blob/main/knn_cm.png>
+<img src=https://github.com/ChrisDieck/Project-2/blob/main/images/knn_cr.png>
+<img src=https://github.com/ChrisDieck/Project-2/blob/main/images/knn_cm.png>
 
 - The KNN model performed slightly better with a 73.1% accuracy on the training
 set and 73.4% on the testing set. Although only a slight increase in accuracy,
@@ -329,16 +329,16 @@ it had a great improvement with recall for detecting extroverts by about 20%,
 but it lowered by 4% for those who identify as neither.
 
 ### KNN with PCA Classification Report and Confusion Matrix
-<img src=https://github.com/ChrisDieck/Project-2/blob/main/knn_pca_cr.png>
-<img src=https://github.com/ChrisDieck/Project-2/blob/main/knn_pca_cm.png>
+<img src=https://github.com/ChrisDieck/Project-2/blob/main/images/knn_pca_cr.png>
+<img src=https://github.com/ChrisDieck/Project-2/blob/main/images/knn_pca_cm.png>
 
 - The KNN model using PCA performed about 1% better than the base model, which
 may not be worth losing the ability to identify the features. It also performed
 slightly worse on recall scores, but slightly better for precision scores.
 
 ### Logistic Regression Classification Report and Confusion Matrix
-<img src=https://github.com/ChrisDieck/Project-2/blob/main/logreg_cr.png>
-<img src=https://github.com/ChrisDieck/Project-2/blob/main/logreg_cm.png>
+<img src=https://github.com/ChrisDieck/Project-2/blob/main/images/logreg_cr.png>
+<img src=https://github.com/ChrisDieck/Project-2/blob/main/images/logreg_cm.png>
 
 - The logistic regression model performed the best out of all the models with
 an accuracy of 74.9%. Also, it had the highest recall scores for identifying
@@ -348,7 +348,7 @@ best on precision scores across the board.
 
 ## Most Useful Data Visualizations
 ### Correlational Heatmap
-<img src=https://github.com/ChrisDieck/Project-2/blob/main/best%20correlational%20heatmap.png>
+<img src=https://github.com/ChrisDieck/Project-2/blob/main/images/best%20correlational%20heatmap.png>
 
 #### Analysis of Heatmap
 
@@ -389,10 +389,10 @@ between each other, which mean they also have consistent answers.
 
 
 ### Bar Chart for Q13
-<img src=https://github.com/ChrisDieck/Project-2/blob/main/q13a_and_IE.png>
+<img src=https://github.com/ChrisDieck/Project-2/blob/main/images/q13a_and_IE.png>
 
 ### Bar Chart for Q90
-<img src=https://github.com/ChrisDieck/Project-2/blob/main/Q90A_and_IE.png>
+<img src=https://github.com/ChrisDieck/Project-2/blob/main/images/Q90A_and_IE.png>
 
 Analysis of Bar Charts:
 
